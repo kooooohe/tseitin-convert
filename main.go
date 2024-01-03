@@ -9,9 +9,9 @@ import (
 func main() {
 	// 入力文字列
 	//DNF
-	input := `( x1 ∧  x2 ∧  -x3 ∧  x4 ∧  ¬x5 ) ∨
-( ¬x1 ∧  x2 ∧  -x3 ) ∨
-( x1 ∧  x2 ∧  -x3 ∧  x4 ∧  x5 )`
+	input := `( x1 ∧  x2 ∧  ¬x3 ∧  x4 ∧  ¬x5 ) ∨
+( ¬x1 ∧  x2 ∧  ¬x3 ) ∨
+( x1 ∧  x2 ∧  ¬x3 ∧  x4 ∧  x5 )`
 	// 改行で分割
 	rows := strings.Split(input, "∨")
 
